@@ -28,6 +28,25 @@ exchange rate direction and account for the relationship between these macroecon
 the exchange rate, will be an outstanding contribution as this helps understanding which economic factors
 drive the fluctuations in the exchange rates.
 
+# Dataset
+The below list contains the data sources for the macroeconomic features and the target variable, along with their frequencies:
+
+* **USD/CAD** - *Daily* - https://fred.stlouisfed.org/series/DEXCAUS
+* **IR** - *Monthly* - https://data.oecd.org/interest/short-term-interest-rates.htm
+* **CPI (PPP)** - *Yearly* - https://data.oecd.org/conversion/purchasing-power-parities-ppp.htm#indicator-chart
+* **PPI** - *Monthly* - https://data.oecd.org/price/producer-price-indices-ppi.htm
+* **M1** - *Monthly* - https://data.oecd.org/money/broad-money-m1.htm#indicator-chart
+* **M3** - *Monthly* - https://data.oecd.org/money/broad-money-m3.htm#indicator-chart
+* **SP500** - *Daily* - https://fred.stlouisfed.org/series/SP500 (From May 2012), https://ca.investing.com/indices/us-spx-500-historical-data
+* **TSX**- *Daily* - https://finance.yahoo.com/quote/%5EGSPTSE/history?period1=1230768000&period2=1640995200&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+* **Gold** - *Daily* - https://data.nasdaq.com/data/LBMA/GOLD-gold-price-london-fixing 
+* **Oil** - *Monthly* - https://fred.stlouisfed.org/series/WTISPLC 
+* **ED** - *Daily* -https://www.marketwatch.com/investing/interestrate/liborusd3m/download-data?startDate=1/1/2009&endDate=1/3/2022&countryCode=mr
+* **Unemployment** - *Monthly* - https://fred.stlouisfed.org/series/LRUNTTTTCAM156S
+* **Commodity Price (BCPI)** - *Monthly* - https://www.bankofcanada.ca/rates/price-indexes/bcpi/
+* **Industrial production** - *Monthly* - https://data.oecd.org/industry/industrial-production.htm
+
+
 # Repository Structure
 `data` folder contains all the different datasets fr=or the fundamentals used in the thesis, along with the final dataset. 
 
